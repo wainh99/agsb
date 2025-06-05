@@ -31,11 +31,11 @@ DEBUG_LOG = INSTALL_DIR / "python_debug.log"
 CUSTOM_DOMAIN_FILE = INSTALL_DIR / "custom_domain.txt" # 存储最终使用的域名
 
 # ====== 全局可配置参数（可直接在此处修改） ======
-USER_NAME = "halaha"         # 用户名
+USER_NAME = "cc66"         # 用户名
 UUID = "7940ece9-9166-4738-85c1-2086afa7283f"                     # UUID，留空则自动生成
 PORT = 29108                   # Vmess端口，留空或0则自动生成
-DOMAIN = "chuang2566.halaha.ip-ddns.com"                   # 域名，留空则自动获取
-CF_TOKEN = "eyJhIjoiZjI5YmRlNzg3MDg4NWYwYjk2MjRhNjE2OGY2M2VhZjAiLCJ0IjoiMTgzYjM3YWQtYWQzNC00MWY2LWJiMWUtYWJjODcyYTM0NzcwIiwicyI6Ik9USTROelJpTVRjdE1ESXpZaTAwWXpsa0xXRmpOR1l0WXpFMU9UQTBPR0U1WTJWaiJ9"                 # Cloudflare Token，留空则用Quick Tunnel
+DOMAIN = "cc66.halaha.ip-ddns.com"                   # 域名，留空则自动获取
+CF_TOKEN = "eyJhIjoiZjI5YmRlNzg3MDg4NWYwYjk2MjRhNjE2OGY2M2VhZjAiLCJ0IjoiMjBiZDFjZTMtMTFiNC00NjQ0LWI5YjAtNjE4ODJmMWNkYjAxIiwicyI6IlptVXhaREpsWkdVdE5HWXhOeTAwT0RnMkxUazBNekV0TXpJM00yWTFZamc1TkRFdyJ9"                 # Cloudflare Token，留空则用Quick Tunnel
 # =========================================
 
 # 添加命令行参数解析
